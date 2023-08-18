@@ -1,0 +1,41 @@
+[
+	{//魏国-虎豹骑
+		"name":"Unit_Tiger_Leopard_Cavalry2",
+        "replaces":"Unit_Horseman",
+        "uniqueTo":"Nation_Wei",
+		"unitType":"Unit_Type_Light_Cavalry",
+		"strength":194,//36
+		"movement":4,
+		"cost":96,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Horse_Archer",
+		"requiredTech": "Tech_Horseback riding",
+		"obsoleteTech": "Tech_Castle",
+		"uniques":["Double movement in [Landform_Hill]",
+        "[+13]% Strength <vs [Wounded] units>",
+        "Instantly consumes [10] [Resource_Horse]",
+		"[-64]% Strength <when below [0] [Resource_Horse]>",
+		"Era_Classical"]
+	},
+	{//蜀汉-大谋略家
+		"name": "GreatPerson_Class_Strategist",
+		"unitType": "Unit_Type_Civilian",
+		"uniqueTo":"Nation_Shu",
+		"uniques": [
+			"[+18]% Strength bonus for [Military] units within [3] tiles",
+			"Instantly consumes [30] [Resource_GreatPerson_Class_Strategist] <before [30] turns>",
+			"Instantly consumes [60] [Resource_GreatPerson_Class_Strategist] <after [30] turns> <before [60] turns>",
+			"Instantly consumes [90] [Resource_GreatPerson_Class_Strategist] <after [60] turns> <before [90] turns>",
+			"Instantly consumes [120] [Resource_GreatPerson_Class_Strategist] <after [90] turns> <before [120] turns>",
+			"Instantly consumes [150] [Resource_GreatPerson_Class_Strategist] <after [120] turns>",
+			"Instantly provides [40] [Resource_Horse] <by consuming this unit> <after discovering [Tech_Animal husbandry]>",
+			"Instantly provides [40] [Resource_Iron] <by consuming this unit> <after discovering [Tech_Copper casting]>",
+			"Instantly provides [40] [Resource_Niter] <by consuming this unit><after discovering [Tech_Military engineering]>",
+			"Instantly provides [40] [Resource_Coal] <by consuming this unit> <after discovering [Tech_Industrialization]>",
+			"Instantly provides [40] [Resource_Oil] <by consuming this unit> <after discovering [Tech_Refining]>",
+			"Instantly provides [40] [Resource_Aluminum] <by consuming this unit> <after discovering [Tech_Radio]>",
+			"Instantly provides [40] [Resource_Uranium] <by consuming this unit> <after discovering [Tech_Joint operations]>",
+			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+]

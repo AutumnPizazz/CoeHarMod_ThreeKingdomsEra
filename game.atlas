@@ -1,0 +1,97 @@
+
+game.png
+size: 1024, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Building_Haiyan_Department
+  rotate: false
+  xy: 4, 46
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Building_Wei_Code
+  rotate: false
+  xy: 778, 346
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/D_Crafty_Politics
+  rotate: false
+  xy: 140, 46
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/M_beifa
+  rotate: false
+  xy: 276, 46
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LeaderIcons/Cao Pi
+  rotate: false
+  xy: 4, 182
+  size: 250, 292
+  orig: 250, 292
+  offset: 0, 0
+  index: -1
+LeaderIcons/Liu Bei
+  rotate: false
+  xy: 262, 182
+  size: 250, 292
+  orig: 250, 292
+  offset: 0, 0
+  index: -1
+LeaderIcons/Sun Quan
+  rotate: false
+  xy: 520, 182
+  size: 250, 292
+  orig: 250, 292
+  offset: 0, 0
+  index: -1
+NationIcons/Nation_Shu
+  rotate: false
+  xy: 4, 4
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1
+NationIcons/Nation_Wei
+  rotate: false
+  xy: 914, 441
+  size: 30, 33
+  orig: 30, 33
+  offset: 0, 0
+  index: -1
+NationIcons/Nation_Wu
+  rotate: false
+  xy: 548, 144
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+UnitIcons/GreatPerson_Class_Strategist
+  rotate: false
+  xy: 778, 210
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource_GreatPerson_Class_Strategist
+  rotate: false
+  xy: 778, 210
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_Tiger_Leopard_Cavalry2
+  rotate: false
+  xy: 412, 46
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

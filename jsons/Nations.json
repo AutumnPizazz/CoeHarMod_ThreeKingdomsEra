@@ -1,0 +1,110 @@
+[
+	{//魏国
+		"name": "Nation_Wei",
+		"leaderName": "Cao Pi",
+		"adjective": ["Adj_Wei"],
+		"startBias": ["Plains","Grassland"],
+	
+        "outerColor": [40, 0, 60],
+        "innerColor": [255, 204, 0],
+/*		"outerColor": [, , ],
+		"innerColor": [, , ],*/
+
+		"uniqueName": "to establish oneself independent of the Han",
+		"uniques": ["[+20]% [Science] from every [Building_Wei_Code] <after discovering [Tech_Civilian education]>",
+        "[+20]% [Culture] from every [Building_Wei_Code] <after discovering [Civic_Feudalism]>"], 
+//        "uniqueText":"",
+
+        "cities": ["洛阳", "许昌", "长安", "邺城", "中山", "陈留", "下邳", "汝南", "颍川", "濮阳", "南阳", "宛城", "襄阳", "江夏", "武昌", "襄城", "新野", "安阳", "河内", "虎牢", "小沛", "广陵", "建业", "寿春", "壶关", "上庸", "安陆", "广阳", "昌邑"],
+	
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
+	},
+	{//蜀汉
+		"name": "Nation_Shu",
+		"leaderName": "Liu Bei",
+		"adjective": ["Adj_Shu"],
+		"startBias": ["Landform_Hill"],
+	
+        "outerColor": [89, 55, 35],
+        "innerColor": [242, 230, 166],
+/*		"outerColor": [, , ],
+		"innerColor": [, , ],*/
+
+		"uniqueName": "Winning over the hearts of the people, restoring the greatness of Han",
+		"uniques": [
+			"Discover [Tech_UniqueToShu]",
+
+			"Instantly provides [7] [Resource_GreatPerson_Class_Artist] <upon gaining a [GreatPerson_Class_Artist] unit> <before [30] turns>",
+			"Instantly provides [15] [Resource_GreatPerson_Class_Artist] <upon gaining a [GreatPerson_Class_Artist] unit> <before [60] turns> <after [30] turns>",
+			"Instantly provides [22] [Resource_GreatPerson_Class_Artist] <upon gaining a [GreatPerson_Class_Artist] unit> <before [90] turns> <after [60] turns>",
+			"Instantly provides [30] [Resource_GreatPerson_Class_Artist] <upon gaining a [GreatPerson_Class_Artist] unit> <before [120] turns> <after [90] turns>",
+			"Instantly provides [37] [Resource_GreatPerson_Class_Artist] <upon gaining a [GreatPerson_Class_Artist] unit> <after [120] turns>",
+			
+			"Instantly provides [7] [Resource_GreatPerson_Class_Scientist] <upon gaining a [GreatPerson_Class_Scientist] unit> <before [30] turns>",
+			"Instantly provides [15] [Resource_GreatPerson_Class_Scientist] <upon gaining a [GreatPerson_Class_Scientist] unit> <before [60] turns> <after [30] turns>",
+			"Instantly provides [22] [Resource_GreatPerson_Class_Scientist] <upon gaining a [GreatPerson_Class_Scientist] unit> <before [90] turns> <after [60] turns>",
+			"Instantly provides [30] [Resource_GreatPerson_Class_Scientist] <upon gaining a [GreatPerson_Class_Scientist] unit> <before [120] turns> <after [90] turns>",
+			"Instantly provides [37] [Resource_GreatPerson_Class_Scientist] <upon gaining a [GreatPerson_Class_Scientist] unit> <after [120] turns>",
+			
+			"Instantly provides [7] [Resource_GreatPerson_Class_Merchant] <upon gaining a [GreatPerson_Class_Merchant] unit> <before [30] turns>",
+			"Instantly provides [15] [Resource_GreatPerson_Class_Merchant] <upon gaining a [GreatPerson_Class_Merchant] unit> <before [60] turns> <after [30] turns>",
+			"Instantly provides [22] [Resource_GreatPerson_Class_Merchant] <upon gaining a [GreatPerson_Class_Merchant] unit> <before [90] turns> <after [60] turns>",
+			"Instantly provides [30] [Resource_GreatPerson_Class_Merchant] <upon gaining a [GreatPerson_Class_Merchant] unit> <before [120] turns> <after [90] turns>",
+			"Instantly provides [37] [Resource_GreatPerson_Class_Merchant] <upon gaining a [GreatPerson_Class_Merchant] unit> <after [120] turns>",
+			
+			"Instantly provides [7] [Resource_GreatPerson_Class_Engineer] <upon gaining a [GreatPerson_Class_Engineer] unit> <before [30] turns>",
+			"Instantly provides [15] [Resource_GreatPerson_Class_Engineer] <upon gaining a [GreatPerson_Class_Engineer] unit> <before [60] turns> <after [30] turns>",
+			"Instantly provides [22] [Resource_GreatPerson_Class_Engineer] <upon gaining a [GreatPerson_Class_Engineer] unit> <before [90] turns> <after [60] turns>",
+			"Instantly provides [30] [Resource_GreatPerson_Class_Engineer] <upon gaining a [GreatPerson_Class_Engineer] unit> <before [120] turns> <after [90] turns>",
+			"Instantly provides [37] [Resource_GreatPerson_Class_Engineer] <upon gaining a [GreatPerson_Class_Engineer] unit> <after [120] turns>",
+			
+			"Instantly provides [7] [Resource_GreatPerson_Class_Prophet] <upon gaining a [GreatPerson_Class_Prophet] unit> <before [30] turns>",
+			"Instantly provides [15] [Resource_GreatPerson_Class_Prophet] <upon gaining a [GreatPerson_Class_Prophet] unit> <before [60] turns> <after [30] turns>",
+			"Instantly provides [22] [Resource_GreatPerson_Class_Prophet] <upon gaining a [GreatPerson_Class_Prophet] unit> <before [90] turns> <after [60] turns>",
+			"Instantly provides [30] [Resource_GreatPerson_Class_Prophet] <upon gaining a [GreatPerson_Class_Prophet] unit> <before [120] turns> <after [90] turns>",
+			"Instantly provides [37] [Resource_GreatPerson_Class_Prophet] <upon gaining a [GreatPerson_Class_Prophet] unit> <after [120] turns>",
+			
+			"Instantly provides [7] [Resource_GreatPerson_Class_General] <upon gaining a [GreatPerson_Class_General] unit> <before [30] turns>",
+			"Instantly provides [15] [Resource_GreatPerson_Class_General] <upon gaining a [GreatPerson_Class_General] unit> <before [60] turns> <after [30] turns>",
+			"Instantly provides [22] [Resource_GreatPerson_Class_General] <upon gaining a [GreatPerson_Class_General] unit> <before [90] turns> <after [60] turns>",
+			"Instantly provides [30] [Resource_GreatPerson_Class_General] <upon gaining a [GreatPerson_Class_General] unit> <before [120] turns> <after [90] turns>",
+			"Instantly provides [37] [Resource_GreatPerson_Class_General] <upon gaining a [GreatPerson_Class_General] unit> <after [120] turns>",
+			
+			"Instantly provides [7] [Resource_GreatPerson_Class_Admiral] <upon gaining a [GreatPerson_Class_Admiral] unit> <before [30] turns>",
+			"Instantly provides [15] [Resource_GreatPerson_Class_Admiral] <upon gaining a [GreatPerson_Class_Admiral] unit> <before [60] turns> <after [30] turns>",
+			"Instantly provides [22] [Resource_GreatPerson_Class_Admiral] <upon gaining a [GreatPerson_Class_Admiral] unit> <before [90] turns> <after [60] turns>",
+			"Instantly provides [30] [Resource_GreatPerson_Class_Admiral] <upon gaining a [GreatPerson_Class_Admiral] unit> <before [120] turns> <after [90] turns>",
+			"Instantly provides [37] [Resource_GreatPerson_Class_Admiral] <upon gaining a [GreatPerson_Class_Admiral] unit> <after [120] turns>",
+			
+			"Instantly provides [7] [Resource_GreatPerson_Class_Strategist] <upon gaining a [GreatPerson_Class_Strategist] unit> <before [30] turns>",
+			"Instantly provides [15] [Resource_GreatPerson_Class_Strategist] <upon gaining a [GreatPerson_Class_Strategist] unit> <before [60] turns> <after [30] turns>",
+			"Instantly provides [22] [Resource_GreatPerson_Class_Strategist] <upon gaining a [GreatPerson_Class_Strategist] unit> <before [90] turns> <after [60] turns>",
+			"Instantly provides [30] [Resource_GreatPerson_Class_Strategist] <upon gaining a [GreatPerson_Class_Strategist] unit> <before [120] turns> <after [90] turns>",
+			"Instantly provides [37] [Resource_GreatPerson_Class_Strategist] <upon gaining a [GreatPerson_Class_Strategist] unit> <after [120] turns>",
+	],
+		"uniqueText":"Every time recruiting a Great Person, 25% of the Great Person points will be refunded (rounded down)",
+
+        "cities": ["成都", "汉中", "绵竹", "广元", "德阳", "雅安", "广安", "宜宾", "巴中", "自贡", "南充", "资阳", "遂宁", "达州", "眉山", "乐山", "凉山", "攀枝花", "内江", "泸州", "宣汉", "宝兴", "邛崃", "峨眉山", "阆中", "仁寿", "都江堰", "彭州", "简阳", "渠县"]	,
+
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
+	},
+	{//东吴
+		"name": "Nation_Wu",
+		"leaderName": "Sun Quan",
+		"adjective": ["Adj_Wu"],
+		"startBias": ["Coast"],
+	
+        "outerColor": [116, 149, 116],
+        "innerColor": [255, 255, 255],
+/*		"outerColor": [, , ],
+		"innerColor": [, , ],*/
+
+		"uniqueName": "the natural fortress of the Yangtze River",
+		"uniques": ["[+23]% Strength <for [Military] units> <when defending> <in [River] tiles>",
+		"[Military] units gain the [Promotion_Amphibious] promotion"], 
+
+        "cities": ["建业", "吴郡", "庐江", "广陵", "会稽", "临海", "义乌", "温州", "宁波", "上虞", "绍兴", "嘉兴", "湖州", "金华", "衢州", "台州", "丽水", "舒县", "富阳", "余姚", "慈溪", "江山", "奉化", "德清", "象山", "龙游", "桐乡", "建德", "淳安", "长兴"],
+
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
+	},
+]
