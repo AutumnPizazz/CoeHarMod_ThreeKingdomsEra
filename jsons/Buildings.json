@@ -1,6 +1,6 @@
 [
     /*市政广场区域建筑(大谋略家补丁)*/
-    {
+    {//市政广场地标
 		"name": "Building_Government_Plaza_Unique",
 		"cost": 20,
 		"hurryCostModifier":-33,

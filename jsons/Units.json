@@ -13,9 +13,10 @@
 		"obsoleteTech": "Tech_Castle",
 		"uniques":["Double movement in [Landform_Hill]",
         "[+13]% Strength <vs [Wounded] units>",
-        "Instantly consumes [10] [Resource_Horse]",
+        "Costs [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
-		"Era_Classical"]
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//蜀汉-大谋略家
 		"name": "GreatPerson_Class_Strategist",
@@ -23,11 +24,11 @@
 		"uniqueTo":"Nation_Shu",
 		"uniques": [
 			"[+18]% Strength bonus for [Military] units within [3] tiles",
-			"Instantly consumes [30] [Resource_GreatPerson_Class_Strategist] <before [30] turns>",
-			"Instantly consumes [60] [Resource_GreatPerson_Class_Strategist] <after [30] turns> <before [60] turns>",
-			"Instantly consumes [90] [Resource_GreatPerson_Class_Strategist] <after [60] turns> <before [90] turns>",
-			"Instantly consumes [120] [Resource_GreatPerson_Class_Strategist] <after [90] turns> <before [120] turns>",
-			"Instantly consumes [150] [Resource_GreatPerson_Class_Strategist] <after [120] turns>",
+			"Costs [30] [Resource_GreatPerson_Class_Strategist] <before [30] turns>",
+			"Costs [60] [Resource_GreatPerson_Class_Strategist] <after [30] turns> <before [60] turns>",
+			"Costs [90] [Resource_GreatPerson_Class_Strategist] <after [60] turns> <before [90] turns>",
+			"Costs [120] [Resource_GreatPerson_Class_Strategist] <after [90] turns> <before [120] turns>",
+			"Costs [150] [Resource_GreatPerson_Class_Strategist] <after [120] turns>",
 			"Instantly provides [40] [Resource_Horse] <by consuming this unit> <after discovering [Tech_Animal husbandry]>",
 			"Instantly provides [40] [Resource_Iron] <by consuming this unit> <after discovering [Tech_Copper casting]>",
 			"Instantly provides [40] [Resource_Niter] <by consuming this unit><after discovering [Tech_Military engineering]>",
