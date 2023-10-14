@@ -2,11 +2,11 @@
     "name": "Global uniques",
     "uniques": [
 
-        "May buy [GreatPerson_Class_Strategist] units for [0] [Gold] [in all cities] <when above [30] [Resource_GreatPerson_Class_Strategist]> <before [30] turns>",
-        "May buy [GreatPerson_Class_Strategist] units for [0] [Gold] [in all cities] <when above [60] [Resource_GreatPerson_Class_Strategist]> <after [30] turns> <before [60] turns>",
-        "May buy [GreatPerson_Class_Strategist] units for [0] [Gold] [in all cities] <when above [90] [Resource_GreatPerson_Class_Strategist]> <after [60] turns> <before [90] turns>",
-        "May buy [GreatPerson_Class_Strategist] units for [0] [Gold] [in all cities] <when above [120] [Resource_GreatPerson_Class_Strategist]> <after [90] turns> <before [120] turns>",
-        "May buy [GreatPerson_Class_Strategist] units for [0] [Gold] [in all cities] <when above [150] [Resource_GreatPerson_Class_Strategist]> <after [120] turns>",//大谋略家
+        "May buy [Unit.Strategist] units for [0] [Gold] [in all cities] <when above [30] [Resource.Unit.Strategist]> <before [30] turns>",
+        "May buy [Unit.Strategist] units for [0] [Gold] [in all cities] <when above [60] [Resource.Unit.Strategist]> <after [30] turns> <before [60] turns>",
+        "May buy [Unit.Strategist] units for [0] [Gold] [in all cities] <when above [90] [Resource.Unit.Strategist]> <after [60] turns> <before [90] turns>",
+        "May buy [Unit.Strategist] units for [0] [Gold] [in all cities] <when above [120] [Resource.Unit.Strategist]> <after [90] turns> <before [120] turns>",
+        "May buy [Unit.Strategist] units for [0] [Gold] [in all cities] <when above [150] [Resource.Unit.Strategist]> <after [120] turns>"//大谋略家
 
     ]
 }

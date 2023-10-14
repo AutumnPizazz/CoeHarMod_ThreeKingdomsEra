@@ -1,5 +1,1 @@
-{
-    "isBaseRuleset": false,
-//    "nationsToRemove":["Nation_Rome","Nation_Korea","Nation_Ming","Nation_Gaul","Nation_Germany","Nation_Egypt","Nation_Russia","Nation_Babylon","Nation_Maya","Nation_Persia","Nation_Aztec","Nation_Mali","Nation_Greece","Nation_Ottoman","Nation_UnitedStates","Nation_Qin","Nation_Scythia","Nation_Arabia","Nation_Byzantium","Nation_Tang","Nation_SRC","Nation_England","Nation_France","Nation_Han"],
-//    "constants":{}
-}
+{"lastUpdated":"2023-09-03T08:30:59Z","modUrl":"https://github.com/AutumnPizazz/CoeHarMod_ThreeKingdomsEra","defaultBranch":"main","author":"AutumnPizazz","modSize":696,"topics":["unciv","unciv-mod","unciv-mod-expansion","unciv-mod-modsofmods"],"constants":{"unitUpgradeCost":{}}}

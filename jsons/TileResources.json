@@ -1,9 +1,9 @@
 [
 	{//大谋略家点数
-		"name":"Resource_GreatPerson_Class_Strategist",
+		"name":"Resource.Unit.Strategist",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
-		"revealedBy":"Tech_UniqueToShu",
+		"revealedBy":"Tech.UniqueToShu",
 		"uniques": ["Cannot be traded","Stockpiled"]
-	},
+	}
 ]

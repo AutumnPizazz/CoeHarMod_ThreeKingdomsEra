@@ -1,19 +1,19 @@
 [
 	{
 		"columnNumber": 1,
-		"era": "Era_Ancient",
+		"era": "Era.Ancient",
 		"buildingCost": 60,
 		"wonderCost": 180,
 		"techCost":25,
 		"techs": [
 			{
-				"name": "Tech_UniqueToShu",
+				"name": "Tech.UniqueToShu",
 				"cost":33554431,
 				"row": 14,
 				"quote": "在蜀汉的掌握下，科技之光照亮了我们前进的道路。我们以智慧和创新为武器，铸就了专属于蜀汉的科技奇迹。在这片土地上，我们勇敢地追求进步，开拓新的领域。蜀汉的科技力量是我们的力量，驱使我们超越困难，创造出更美好的明天。我们相信，通过科技的力量，蜀汉将继续翻开新的篇章，以智慧引领时代的潮流，为国家的兴盛作出不可磨灭的贡献",
-				"uniques": ["Only available <after discovering [Tech_Future technology]>",
-				"Only available <after discovering [Civic_Future Municipal]>"]
+				"uniques": ["Only available <after discovering [Tech.FutureTechnology]>",
+				"Only available <after discovering [Civic.FutureMunicipal]>"]
 			}
 		]
-	},
+	}
 ]
